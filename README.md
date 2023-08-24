@@ -8,7 +8,7 @@ This package contains a adapter for [Flysystem](https://flysystem.thephpleague.c
 You can install the package via composer:
 
 ``` bash
-composer require gwsn/flysystem-sharepoint-adapter
+composer require workupsrl/flysystem-sharepoint-adapter
 ```
 
 

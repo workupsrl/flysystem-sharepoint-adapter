@@ -1,5 +1,5 @@
 {
-  "name": "gwsn/flysystem-sharepoint-adapter",
+  "name": "workupsrl/flysystem-sharepoint-adapter",
   "description": "[beta] Adapter for flysystem to use sharepoint as filestore",
   "license": "MIT",
   "homepage": "https://github.com/gwsn/packages/flysystem-sharepoint-adapter",
@@ -13,10 +13,16 @@
       "homepage": "https://www.globalwebsystems.nl"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/workupsrl/sharepoint-sdk"
+    }
+  ],
   "require": {
-    "php": "^7.4 || ^8.0",
+    "php": "^8.0",
     "ext-json": "*",
-    "gwsn/sharepoint-sdk": "^1.0",
+    "workupsrl/sharepoint-sdk": "^1.0",
     "league/flysystem": "^3.0"
   },
   "require-dev": {

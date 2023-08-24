@@ -209,13 +209,14 @@ class FlysystemSharepointAdapter implements FilesystemAdapter
     /**
      * @param string $path
      * @param bool $deep
+     * @param null|string $suffix
      * @return iterable|StorageAttributes[]
      * @throws \Exception
      */
-    public function listContents(string $path, bool $deep): iterable
+    public function listContents(string $path, bool $deep, ?string $suffix = null): iterable
     {
         $content = [];
-        $result = $this->connector->getFolder()->requestFolderItems($this->applyPrefix($path));
+        $result = $this->connector->getFolder()->requestFolderItems($this->applyPrefix($path), $suffix);
 
         if(count($result) > 0) {
             foreach($result as $value) {

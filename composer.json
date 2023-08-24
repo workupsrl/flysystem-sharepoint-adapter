@@ -13,12 +13,6 @@
       "homepage": "https://www.globalwebsystems.nl"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/workupsrl/sharepoint-sdk"
-    }
-  ],
   "require": {
     "php": "^8.0",
     "ext-json": "*",

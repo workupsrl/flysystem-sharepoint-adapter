@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b17fd2664690bf9159ee7683503b2d68",
+    "content-hash": "202b0fc588c399493fc9ca774b9c2f82",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -330,55 +330,6 @@
                 }
             ],
             "time": "2023-08-03T15:06:02+00:00"
-        },
-        {
-            "name": "gwsn/sharepoint-sdk",
-            "version": "1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gwsn/sharepoint-sdk.git",
-                "reference": "33a509a423ce0f1b26999c0861063a53af6601a3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gwsn/sharepoint-sdk/zipball/33a509a423ce0f1b26999c0861063a53af6601a3",
-                "reference": "33a509a423ce0f1b26999c0861063a53af6601a3",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^7.4",
-                "php": "^7.4 || ^8.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "GWSN\\Microsoft\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Global Web Systems B.V.",
-                    "homepage": "https://www.globalwebsystems.nl"
-                }
-            ],
-            "description": "Connect to sharepoint drive with PHP",
-            "homepage": "https://github.com/gwsn/sharepoint-sdk",
-            "keywords": [
-                "Flysystem",
-                "sharepoint"
-            ],
-            "support": {
-                "issues": "https://github.com/gwsn/sharepoint-sdk/issues",
-                "source": "https://github.com/gwsn/sharepoint-sdk/tree/1.0.6"
-            },
-            "time": "2022-09-07T20:18:49+00:00"
         },
         {
             "name": "league/flysystem",
@@ -854,6 +805,54 @@
                 }
             ],
             "time": "2023-05-23T14:45:45+00:00"
+        },
+        {
+            "name": "workupsrl/sharepoint-sdk",
+            "version": "1.0.6.001",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/workupsrl/sharepoint-sdk.git",
+                "reference": "2cd198dc2dc6dbb7de47d83229e008d591b906dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/workupsrl/sharepoint-sdk/zipball/2cd198dc2dc6dbb7de47d83229e008d591b906dc",
+                "reference": "2cd198dc2dc6dbb7de47d83229e008d591b906dc",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.4",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GWSN\\Microsoft\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Global Web Systems B.V.",
+                    "homepage": "https://www.globalwebsystems.nl"
+                }
+            ],
+            "description": "Connect to sharepoint drive with PHP",
+            "homepage": "https://github.com/workupsrl/sharepoint-sdk",
+            "keywords": [
+                "Flysystem",
+                "sharepoint"
+            ],
+            "support": {
+                "source": "https://github.com/workupsrl/sharepoint-sdk/tree/1.0.6.001"
+            },
+            "time": "2023-08-24T15:35:27+00:00"
         }
     ],
     "packages-dev": [
@@ -2657,7 +2656,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.0",
         "ext-json": "*"
     },
     "platform-dev": [],
